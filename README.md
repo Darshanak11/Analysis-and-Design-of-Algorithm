@@ -11,4 +11,4 @@ Learn to analyze time and space complexity<br>
 
 Understand how algorithms work in real problems<br>
 
-Improve coding and problem-solving skills<br>**
+Improve coding and problem-solving skills<br>
