@@ -22,11 +22,11 @@ def partition(arr, low, high):
             break
     arr[low], arr[j] = arr[j], arr[low]
     return j
-arr = [5, 8, 1, 2, 6, 3, 9]
+arr = [10, 8, 1, 7, 6, 13, 9]
 print("Before sorting:", arr)
 quick_sort(arr, 0, len(arr) - 1)
 print("After sorting:", arr)
-# ---------- TIME ANALYSIS ----------
+# TIME ANALYSIS ----------
 n_values = [5000, 10000, 15000, 20000, 25000, 30000]
 time_taken = []
 for n in n_values:
