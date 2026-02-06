@@ -9,7 +9,6 @@ def merge_sort(arr):
     left = merge_sort(arr[:mid])
     right = merge_sort(arr[mid:])
     return merge(left, right)
-
 def merge(left, right):
     result = []
     i = j = 0
@@ -26,7 +25,7 @@ def merge(left, right):
 arr = [38, 27, 43, 3, 9, 82, 10]
 sorted_arr = merge_sort(arr)
 print(sorted_arr)
-# TIME ANALYSIS 
+# ---------- TIME ANALYSIS ----------
 n_values = [5000, 10000, 15000, 20000, 25000, 30000]
 time_taken = []
 for n in n_values:
